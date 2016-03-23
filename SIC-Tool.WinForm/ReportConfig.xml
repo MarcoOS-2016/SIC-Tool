@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ReportConfig>
+  <VendorReportFiles>
+    <VendorReportFile>
+      <ReportFileName>SRIE</ReportFileName>
+      <KeyCharsInFileName>SRIE_</KeyCharsInFileName>
+      <SheetNameList>Replenished Receiving Report,Usage Report,NUP,IA,Re-Open,DC Receiving,DC Usage</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving Date],[Order Number],[Hub Code],[Service Level],[Dispatch part],[Rcv P/N],[Qty],[Mawb],[PO Number],[REMARK],[Usage PN]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA/LPTA],[AWB#],[REMARK],[service type],[Zone Code]</UsageSheetFieldName>
+      <NUPSheetFieldName>[Receiving Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Usage Part Qty],[PTA Nr/LPTA Nr]</NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName>[Used Date],[type],[usage/receiving date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[defective P/N],[QTY],[PTA Nr LPTA Nr],[remark],[houseno]</ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName>[Receiving Date],[Order Number],[Hub Code],[Service Level],[despatch_part],[Rcv P/N],[Qty],[MAWB],[PO Number],[REMARK],[Usage PN]</DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA/LPTA],[AWB#],[REMARK],[SERVICETYPE],[Zone Code]</DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>DHL_Receiving</ReportFileName>
+      <KeyCharsInFileName>receiving report</KeyCharsInFileName>
+      <SheetNameList>Receiving Report</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving Date],[Order Number],[Hub_Code],[Servicelevel],[Dispatch Part],[Rcv P/N],[ Qty ],[MAWB],[Po Number],[Remarks],[Usage Part]</ReceivingSheetFieldName>
+      <UsageSheetFieldName></UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName></ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>DHL_Usage</ReportFileName>
+      <KeyCharsInFileName>SHIPMENT_SER</KeyCharsInFileName>
+      <SheetNameList>SHIPMENT_SER</SheetNameList>
+      <ReceivingSheetFieldName></ReceivingSheetFieldName>
+      <UsageSheetFieldName>[ Used Date ],[HuB Code],[Dsp Name],[Service Order#],[Despatch P/N],[Usage P/N],[Usage Part Qty],[PTA Nr /LPTA Nr               ],[AWB#],[Service Type],[zone]</UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName></ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>KEAS</ReportFileName>
+      <KeyCharsInFileName>KEAS_POW_Daily</KeyCharsInFileName>
+      <SheetNameList>Receiving Report,Usage_Report,Re-Open</SheetNameList>
+      <ReceivingSheetFieldName>[Used Date],[Order Number],[Hub Code],[Service Level],[Dispatch part],[Rcv P/N],[Qty],[Mawb],[PO Number],[Remark],[Usage PN]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA/LPTA],[AWB#],[Remark],[Service Type],[Zone Code]</UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName>[Origional Date],[Report Type],[Hub Code],[DSP],[Order#],[P/N],[Qty],[Update Type],[Update Date],[update reason]</ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>TAML</ReportFileName>
+      <KeyCharsInFileName>Report_TAML</KeyCharsInFileName>
+      <SheetNameList>Replenished Receiving Report,Usage_Report,NUP,IA,Re-Open,Rcv from DC,Usage to DC</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving date],[Order Nr],[Hub Code],[Service level],[Dispatch part],[Rev P/N],[Qty],[Mawb],[PO Nr],[Remark],[Usage PN]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA Nr /LPTA Nr],[AWB],[Remark],[Service Type],[Zone]</UsageSheetFieldName>
+      <NUPSheetFieldName>[Receiving Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Usage Part Qty]</NUPSheetFieldName>
+      <IASheetFieldName>[Apply date],[From_MAS_LOC],[From_LOC],[From],[Part Number],[To_MAS_LOC],[To_LOC],[To],[QTY],[IA#],[Account code],[Reason Code],[Unit Cost],[SER]</IASheetFieldName>
+      <ReOpenSheetFieldName>[Origional Date],[Report Type],[Hub Code],[DSP],[Order# ],[P/N],[Qty],[Update Type],[Update Date ],[update reason]</ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName>[Receiving date],[Order(Nr)],[Hub(Code)],[Service(level)],[ Dispatch part],[Rcved(PN)],[Qty ],[Mawb],[PO(Nr)],[Remark],[Usage PN]</DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA Nr /LPTA Nr],[AWB],[Remark],[Service Type],[Zone]</DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>CAE</ReportFileName>
+      <KeyCharsInFileName>Report_POW</KeyCharsInFileName>
+      <SheetNameList>Replenished Receiving Report,Usage_Report,Re-Open</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving date],[Order Nr],[Hub Code],[Service level],[Dispatch part],[Rev P/N],[Qty],[Mawb],[PO Nr],[Remark],[Usage PN]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA Nr /LPTA Nr],[AWB],[Remark],[Service Type],[Zone]</UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName>[Origional Date],[Report Type],[Hub Code],[DSP],[Order# ],[P/N],[Qty],[Update Type],[Update Date ],[update reason]</ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>UNI</ReportFileName>
+      <KeyCharsInFileName>UNI_Parts</KeyCharsInFileName>
+      <SheetNameList>Receiving,RNU,Re-Open</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving Date],[UID],[Hub Code],[Service Level],[Dispatch part],[Rcv P/N],[Qty],[Mawb],[Call Number]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Return Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Faulty P/N],[Usage Part Qty],[LPTA],[AWB#],[Part Status],[Service Type],[Zone Code]</UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName>[Origional Date],[Report Type],[Hub Code],[DSP],[Order#?],[P/N],[Qty],[Update Type],[Update Date],[update reason],[LPTA#],[Control#],[TAG]</ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>DC_Receiving</ReportFileName>
+      <KeyCharsInFileName>receivinglist</KeyCharsInFileName>
+      <SheetNameList>receivinglist</SheetNameList>
+      <ReceivingSheetFieldName>[Date],[UID/LPTA Nr],[DSP Code],[Service Level],[Dispatch P/N],[Usage P/N],[Quantity],[AWB No],[Service Order],[Remark],[defective PN]</ReceivingSheetFieldName>
+      <UsageSheetFieldName></UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IAReportSheetFieldName>[LOC],[From],[Part Number],[MAS_LOC],[LOC],[From],[QTY],[IA#],[Account code],[Reason Code],[Unit Cost],[SER]</IAReportSheetFieldName>
+      <ReOpenSheetFieldName></ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>DC_Usage</ReportFileName>
+      <KeyCharsInFileName>returninglist</KeyCharsInFileName>
+      <SheetNameList>returninglist</SheetNameList>
+      <ReceivingSheetFieldName></ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Shipping Date],[From DSP],[To DLP],[Service Order],[TS Dispatch P/N],[DLP Usage P/N],[RNU or Defective P/N],[Part Qty],[LPTA#/UID],[AWB#],[Part Type],[Service Type],[Zone Code]</UsageSheetFieldName>
+      <NUPSheetFieldName></NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName></ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>SWI</ReportFileName>
+      <KeyCharsInFileName>SW_Inventory_Report</KeyCharsInFileName>
+      <SheetNameList>Replenished Receiving Report,Usage Report,NUP</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving Date],[Order Number],[Hub Code],[Service Level],[Dispatch part],[Rcv P/N],[Qty],[Mawb],[PO Number],[Remark],[Usage PN]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA/LPTA],[AWB#],[Remark],[Service Type],[Zone Code]</UsageSheetFieldName>
+      <NUPSheetFieldName>[Receiving Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Usage Part Qty]</NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName></ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>NOP</ReportFileName>
+      <KeyCharsInFileName>NOP Glovia Report</KeyCharsInFileName>
+      <SheetNameList>Replenished Receiving Report,Usage Report,NUP,Re-open report</SheetNameList>
+      <ReceivingSheetFieldName>[Receiving Date],[Order Number],[Hub_Code],[Servicelevel],[Dispatch Part],[Rcv P/N],[Qty],[MAWB],[Po Number],[Remarks],[Usage Part]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>[Used Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Defective P/N],[Usage Part Qty],[PTA/LPTA],[AWB#],[Remark],[Service Type],[Zone Code]</UsageSheetFieldName>
+      <NUPSheetFieldName>[Receiving Date],[Hub Code],[DSP Name],[Service Order],[Dispatch P/N],[Usage P/N],[Usage Part Qty]</NUPSheetFieldName>
+      <IASheetFieldName></IASheetFieldName>
+      <ReOpenSheetFieldName>[Original Date],[Report Type],[Hub Code],[DSP],[Order#],[P/N],[Qty],[Update Type],[Update Date],[update reason],[ser#]</ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+    <VendorReportFile>
+      <ReportFileName>3PL_Consolidation_Report</ReportFileName>
+      <KeyCharsInFileName>Consolidation</KeyCharsInFileName>
+      <SheetNameList>receiving report,usage report,NUP,IA</SheetNameList>
+      <ReceivingSheetFieldName>Receiving Date[System.DateTime],Order Number[System.String],Hub_Code[System.String],Servicelevel[System.String],Dispatch Part[System.String],Rcv P/N[System.String],Qty[System.Int32],MAWB[System.String],Po Number[System.String],Remark[System.String],Usage Part[System.String]</ReceivingSheetFieldName>
+      <UsageSheetFieldName>Used Date[System.DateTime],Hub Code[System.String],DSP Name[System.String],Service Order[System.String],Dispatch P/N[System.String],Usage P/N[System.String],Defective P/N[System.String],Usage Part Qty[System.Int32],PTA/LPTA[System.String],AWB#[System.String],Remark[System.String],Service Type[System.String],Zone Code[System.String]</UsageSheetFieldName>
+      <NUPSheetFieldName>Receiving Date[System.DateTime],Hub Code[System.String],DSP Name[System.String],Service Order[System.String],Dispatch P/N[System.String],Usage P/N[System.String],Usage Part Qty[System.Int32]</NUPSheetFieldName>
+      <IASheetFieldName>Apply date[System.DateTime],From_MAS_LOC[System.String],From_LOC[System.String],From[System.String],Part Number[System.String],To_MAS_LOC[System.String],To_LOC[System.String],To[System.String],QTY[System.Int32],IA#[System.String],Account code[System.String],Reason Code[System.String],Unit Cost[System.String],SER[System.String]</IASheetFieldName>
+      <ReOpenSheetFieldName></ReOpenSheetFieldName>
+      <DCReceivingSheetFieldName></DCReceivingSheetFieldName>
+      <DCUsageSheetFieldName></DCUsageSheetFieldName>
+    </VendorReportFile>
+  </VendorReportFiles>
+  <UIInqueryReports>
+    <UIInqueryReport>
+      <ReportName>Stock Status</ReportName>
+      <DataBaseName>GLOVIA</DataBaseName>
+      <SQLScriptTemplate>
+        SELECT DISTINCT 
+        D.CCN as CCN,
+        D.MAS_LOC,
+        D.LOCATION,
+        D.BIN,
+        D.ITEM,
+        C.DESCRIPTION ITEM_DESCRIPTION,
+        C.COMMODITY,
+        B.ISSUE_CODE,
+        E.ABC,
+        B.LOB_CODE,
+        E.BUYER,
+        C.PLANNER,
+        B.RELIEF_EXCEPTION_FLAG,
+        B.BOX_CODE,
+        D.NETTABLE,
+        D.INSP_STAT,
+        D.MRB_DISP,
+        D.OH_QTY,
+        D.COM_QTY,
+        D.USER_NUM1 RESERVED_QTY,
+        E.STD_COST,
+        (E.STD_COST * D.OH_QTY) EXTD_COST,
+        F.CYCLE_COUNT_DATE,
+        cast(D.USER_DATE as date) LAST_TRAN_DATE,
+        E.FINGOOD,
+        B.COA,
+        B.CONSIGNED,
+        B.BULK_EXPENSED,
+        B.RETURN_ON_ASN
+        FROM glovia_prog40.C_ITEM   A,
+        glovia_prog40.C_ITMCCN B,
+        glovia_prog40.ITEM     C,
+        glovia_prog40.ITEM_DET_12 D,
+        glovia_prog40.ITEM_CCN E,
+        glovia_prog40.ITEM_ML  F,
+        glovia_prog40.COMMOD   G,
+        glovia_prog40.LOC      H
+        WHERE D.ITEM = C.ITEM AND D.REVISION = C.REVISION AND C.ITEM = A.ITEM AND
+        C.REVISION = A.REVISION AND D.CCN = E.CCN AND D.ITEM = E.ITEM AND
+        D.REVISION = E.REVISION AND E.CCN = B.CCN AND E.ITEM = B.ITEM AND
+        E.REVISION = B.REVISION AND D.CCN = F.CCN AND D.ITEM = F.ITEM AND
+        D.REVISION = F.REVISION AND D.MAS_LOC = F.MAS_LOC AND
+        G.COMMODITY = C.COMMODITY AND H.CCN = D.CCN AND
+        H.MAS_LOC = D.MAS_LOC AND H.LOCATION = D.LOCATION AND
+        D.CCN IN (%CCN%)
+        AND D.MAS_LOC IN (%MASLOC%)
+        AND TO_CHAR(D.UPDATE_DATE, 'yyyy/mm/dd') = %SNAPSHOTDATE%
+      </SQLScriptTemplate>      
+    </UIInqueryReport>
+    <UIInqueryReport>
+      <ReportName>Transaction History</ReportName>      
+      <DataBaseName>GLOVIA</DataBaseName>
+      <SQLScriptTemplate>
+        SELECT 'C10000' Region,
+        AL2.ITEM,
+        AL1.DESCRIPTION,
+        AL4.LOB_CODE,
+        AL1.COMMODITY,
+        AL2.ITRN_HIS_DATE,
+        AL2.ITRN_HIS_TIME,
+        AL7.MLOC_DESC,
+        AL3.TX_TYPE_SHORT_DESC,
+        AL2.REF,
+        AL2.RECEIVER,
+        AL2.CCN,
+        AL2.MAS_LOC,
+        AL2.LOCATION,
+        AL2.BIN,
+        AL2.FROM_TO_CCN,
+        AL2.FROM_TO_MAS_LOC,
+        AL2.GL_ACCT,
+        AL2.QTY,
+        AL2.REASON,
+        AL5.CONTROL_NUMBER,
+        AL5.TRACKING_NUMBER,
+        AL3.DIRECTION,
+        AL2.AGC,
+        AL2.TRAN_COST,
+        AL2.QTY * AL2.TRAN_COST as EXT_TRAN_COST,
+        AL5.ORDER_NUMBER,
+        NULL SOURCE,
+        NULL SOURCE_QUAL,
+        AL2.USR_ OPER_ID,
+        NULL COMMENTS_TX,
+        NULL TRANS_QTY,
+        NULL INSP_STAT,
+        NULL User_Name
+        AL2.POSTING_DATE AS_OF_DATE
+        FROM ITEM AL1
+        INNER JOIN ITRN_HIS AL2
+        on AL2.ITEM = AL1.ITEM
+        AND AL2.REVISION = AL1.REVISION
+        INNER JOIN DELL_INV_TX_TYPS AL3
+        on AL3.SOURCE_NUM = AL2.SOURCE
+        AND AL3.QUAL_NUM = AL2.SOURCE_QUAL
+        INNER JOIN C_ITMCCN AL4
+        on AL2.CCN = AL4.CCN
+        AND AL2.ITEM = AL4.ITEM
+        INNER JOIN C_ITRNHS AL5
+        on AL2.CCN = AL5.CCN
+        AND AL2.MAS_LOC = AL5.MAS_LOC
+        AND AL2.ITEM = AL5.ITEM
+        AND AL2.REVISION = AL5.REVISION
+        AND AL2.ITRN_HIS_DATE = AL5.ITRN_HIS_DATE
+        AND AL2.ITRN_HIS_TERMINAL = AL5.ITRN_HIS_TERMINAL
+        AND AL2.ITRN_HIS_TIME = AL5.ITRN_HIS_TIME
+        AND AL2.ITRN_HIS_SEQ = AL5.ITRN_HIS_SEQ
+        INNER JOIN MAS_LOC AL7
+        on AL2.MAS_LOC = AL7.MAS_LOC
+        AND AL2.CCN = AL7.CCN
+        INNER JOIN ITEM_CCN AL8
+        on AL1.ITEM = AL8.ITEM
+        and AL8.CCN = Al2.CCN
+        WHERE AL2.CCN IN (%CCN%)
+        and AL2.MAS_LOC IN (%MASLOC%)
+        AND TO_DATE(TO_CHAR(TRUNC(AL2.ITRN_HIS_DATE), 'DDMMYYYY') || AL2.ITRN_HIS_TIME,
+        'DDMMYYYYHH24MISS') &#62;= TO_DATE(TO_CHAR(TRUNC(%SNAPSHOTDATE-1%), 'DDMMYYYY') || ('000000'), 'DDMMYYYYHH24MISS')
+        AND TO_DATE(TO_CHAR(TRUNC(AL2.ITRN_HIS_DATE), 'DDMMYYYY') || AL2.ITRN_HIS_TIME,
+        'DDMMYYYYHH24MISS') &#60;= TO_DATE(TO_CHAR(TRUNC(%SNAPSHOTDATE%), 'DDMMYYYY') || ('000000'), 'DDMMYYYYHH24MISS')
+      </SQLScriptTemplate>
+    </UIInqueryReport>
+  </UIInqueryReports>
+  <MappingItems>
+      <MappingItem>
+        <BeginWith>G</BeginWith>
+        <Partner>SRIE</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Ye,GuoPing</PM>
+        <InventoryAnalyst>Luo,XiaoFang</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>U</BeginWith>
+        <Partner>Unisys</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Zhou,ZhuHong</PM>
+        <InventoryAnalyst>Cai,ShaoJun</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>D</BeginWith>
+        <Partner>DHL</Partner>
+        <KPIGoal>97%</KPIGoal>
+        <PM>Shan,Lana</PM>
+        <InventoryAnalyst>Lin,Huiling</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>K</BeginWith>
+        <Partner>KEAS</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Lin,RongShu</PM>
+        <InventoryAnalyst>Cai,ShaoJun</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>C</BeginWith>
+        <Partner>DC</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Zhou,ZhuHong</PM>
+        <InventoryAnalyst>Luo,XiaoFang</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>W</BeginWith>
+        <Partner>SWI</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Wu,Ray</PM>
+        <InventoryAnalyst>Peng,TianFa</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>T</BeginWith>
+        <Partner>SOG</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Wu,Ray</PM>
+        <InventoryAnalyst>Peng,TianFa</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>E</BeginWith>
+        <Partner>CAE</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Gao,Xin</PM>
+        <InventoryAnalyst>Lin,HuiLing</InventoryAnalyst>
+      </MappingItem>
+      <MappingItem>
+        <BeginWith>A</BeginWith>
+        <Partner>KEASRH</Partner>
+        <KPIGoal>98%</KPIGoal>
+        <PM>Lin,RongShu</PM>
+        <InventoryAnalyst>Luo,XiaoFang</InventoryAnalyst>
+      </MappingItem>  
+  </MappingItems>
+</ReportConfig>
